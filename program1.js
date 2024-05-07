@@ -8,7 +8,7 @@
         }   
       }   
     }
-    return count;
+    return 0;
   }
    
   function color(grid, i, j) {

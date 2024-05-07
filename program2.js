@@ -20,8 +20,7 @@ const decodeTheRing = function (s, p) {
           if(cp==='*') dp[si][pi] = dp[si-1][pi] || dp[si][pi-1];
       }
   }
-  return dp[s.length][p.length]  
-
+  return 0
   };
   
   module.exports = decodeTheRing;
